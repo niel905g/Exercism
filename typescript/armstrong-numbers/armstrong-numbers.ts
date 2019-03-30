@@ -1,3 +1,4 @@
+/* Et armstrong nummer er et nummer hvis sum af dets cifre opløftet til potensen af antalet af cifre i nummeret, er det samme som nummeret! */
 class ArmstrongNumbers {
   public static isArmstrongNumber(input: number): boolean {
     const digits = `${input}`.split('').map((digit) => parseInt(digit, 10))
